@@ -3,7 +3,7 @@
 # response = requests.get("https://www.google.com")
 # print(response.json())
 
-from bab import tipe_data, if_elif_else, looping, exercise
+from bab import tipe_data, if_elif_else, looping, exercise, data_structure
 
 if __name__ == "__main__":
     print("=== Menu ===")
@@ -12,6 +12,7 @@ if __name__ == "__main__":
     print("3. Bab 03 - Looping")
     print("4. Bab 04 - Exercise Else If")
     print("5. Bab 05 - Exercise Looping")
+    print("6. Bab 06 - Data Structure")
 
     pilihan = int(input("Pilih bab: "))
     if pilihan == 1:
@@ -24,5 +25,7 @@ if __name__ == "__main__":
         exercise.percabangan()
     elif pilihan == 5:
         exercise.looping()
+    elif pilihan == 6:
+        data_structure.jalankan()
     else:
         print("Pilihan tidak valid")

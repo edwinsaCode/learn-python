@@ -27,5 +27,11 @@ if __name__ == "__main__":
         exercise.looping()
     elif pilihan == 6:
         data_structure.jalankan()
+    elif pilihan == 7:
+        data_structure.list_exercise()
+    elif pilihan == 8:
+        data_structure.tuple_exercise()
+    elif pilihan == 9:
+        data_structure.dictionary_exercise()
     else:
         print("Pilihan tidak valid")

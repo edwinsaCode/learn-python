@@ -4,7 +4,8 @@
 # print(response.json())
 
 from bab import tipe_data, if_elif_else, looping, exercise, data_structure
-from bab1 import parameter_func
+from bab1 import parameter_func, func_in_data_structure
+from bab2 import class_and_oop
 
 if __name__ == "__main__":
     print("=== Menu ===")
@@ -46,5 +47,11 @@ if __name__ == "__main__":
         parameter_func.luas_persegi()
     elif pilihan == 12:
         parameter_func.keliling_persegi()
+    elif pilihan == 13:
+        func_in_data_structure.func_in_list()
+    elif pilihan == 14:
+        func_in_data_structure.func_in_dict()
+    elif pilihan == 15:
+        class_and_oop.oop_dasar()
     else:
         print("Pilihan tidak valid")

@@ -16,7 +16,7 @@ def luas_persegi():
     print(f"Luas persegi adalah {hasil}")
 
 def keliling_persegi():
-    print("=== Bab 11 - Function Return1 ===")
+    print("=== Bab 12 - Function Return1 ===")
     panjang = int(input("Masukkan panjang: "))
     lebar = int(input("Masukkan lebar: "))
     hasil =  oprasi_keliling_persegi(panjang, lebar)

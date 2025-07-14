@@ -5,7 +5,7 @@
 
 from bab import tipe_data, if_elif_else, looping, exercise, data_structure
 from bab1 import parameter_func, func_in_data_structure
-from bab2 import class_and_oop
+from bab2 import class_and_oop, inheritance
 
 if __name__ == "__main__":
     print("=== Menu ===")
@@ -53,5 +53,7 @@ if __name__ == "__main__":
         func_in_data_structure.func_in_dict()
     elif pilihan == 15:
         class_and_oop.oop_dasar()
+    elif pilihan == 16:
+        inheritance.inheritance()
     else:
         print("Pilihan tidak valid")
